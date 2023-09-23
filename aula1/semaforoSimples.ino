@@ -35,20 +35,3 @@ void loop() {
   sinalVerde();
   delay(6000);
 }
-
-  if (ledOrder == 1) {
-    sinalVerde();
-    pedestrePare();
-    delay(5000);
-  }
-  else if (ledOrder == 2) {
-    sinalAmarelo();
-    delay(2500);
-  }
-  else {
-    sinalVermelho();
-    pedestreSegue();;
-    delay(5000);
-
-    ledOrder = 0;
-  }
